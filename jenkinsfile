@@ -1,0 +1,8 @@
+
+
+node{
+    stage("1"){
+       git branch: 'develop', url: 'https://github.com/Rivaldo321/my-git-python.git'
+        bat "dir"
+    }
+}
